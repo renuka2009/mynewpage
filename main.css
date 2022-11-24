@@ -1,0 +1,39 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif;
+     margin: auto 0;
+     background-image: url('img/background.jpg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;  
+     background-size: 100% 100%;
+
+     }
+.mainbox{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width:  65rem;
+    height: 30rem;
+    box-shadow: 10px 10px 100px 10px black;
+    margin-top: 4rem;
+}
+
+.child{
+    display: flex;
+    height: 30rem;
+    width: 35rem;
+    background-color: transparent;
+    padding-top: 3rem;
+    padding-left: 5rem;
+}
+
+.word{
+    font-size: 20px;
+   
+}
+
+.childbox{
+    display: flex;
+    height: 30rem;
+    width: 30rem;
+    background-color: black;
+}
